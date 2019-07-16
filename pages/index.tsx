@@ -1,7 +1,8 @@
-import Welcome from '../components/Welcome'
+import { NextPage } from "next";
+import Welcome from "../components/Welcome";
 
-function Home() {
+const Home: NextPage = () => {
   return <Welcome message="Hello World" />;
-}
+};
 
 export default Home;
